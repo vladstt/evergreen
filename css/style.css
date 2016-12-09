@@ -903,6 +903,20 @@ header.darker.ui.basic.segment .ui.horizontal.list.company.trigger .content .hea
   font-weight: 700;
   margin-top: 10px !important;
 }
+
+.ui.text.left.container {
+  margin-left: 0 !important;
+  padding-bottom: 50px;
+  min-height: 600px;
+}
+.ui.text.left.container,
+.ui.text.left.container p {
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333;
+  font-size: 15px;
+  opacity: .8;
+}
 /* Media Queries */
 @media only screen and (min-width: 1200px) {
   .ui.tiny.modal {
