@@ -7,8 +7,33 @@ body {
 body * {
   font-family: 'Work Sans', sans-serif;
 }
+body.aboutus {
+  background: #f8f8f8;
+}
+body.aboutus .shadow.ui.segment {
+  margin-top: 0;
+}
+body.aboutus .ui.text.container.narrowed {
+  max-width: 530px !important;
+  padding-top: 0;
+}
+body.aboutus .notop {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 header.ui.basic.segment {
   padding: 15px 30px 10px;
+}
+.socials a {
+  font-weight: 700;
+  color: #333;
+  font-size: 16px;
+}
+.socials a img {
+  vertical-align: middle;
+  margin: 0 10px;
+  position: relative;
+  top: -1px;
 }
 p {
   font-size: 16px;
@@ -66,6 +91,24 @@ small.footnote a {
   background-size: cover;
   color: white;
   padding-bottom: 140px;
+}
+.aboutus .hero {
+  background: url('../img/team.jpg');
+  background-size: cover;
+}
+.aboutus h2 {
+  padding-bottom: 0;
+  margin-bottom: -30px;
+}
+.aboutus h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+.aboutus .team-title {
+  padding-bottom: 15px;
+  opacity: .5;
 }
 .homepage .ui.button {
   margin: 15px;
