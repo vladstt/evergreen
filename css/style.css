@@ -87,13 +87,13 @@ small.footnote a {
   margin-bottom: 40px;
 }
 .hero {
-  background: url('../img/hero.jpg');
+  background: url('../img/hero.jpg') 50%;
   background-size: cover;
   color: white;
   padding-bottom: 140px;
 }
 .aboutus .hero {
-  background: url('../img/team.jpg');
+  background: url('../img/team.jpg') 50%;
   background-size: cover;
 }
 .aboutus h2 {
